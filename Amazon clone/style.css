@@ -1,0 +1,256 @@
+*{
+    font-family:Arial, Helvetica, sans-serif ;
+    padding: 0px;
+    margin: 0;
+}
+
+#di{
+    display:flex ;
+    background-color:#233448 ;
+    height: 60px;   
+}
+#img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1px;
+    padding: 5px 0px 0px 6px;
+}
+
+#p{
+    
+    padding-top: 12px;
+    color: rgb(255, 255, 255);
+    padding-right: 8px;   
+}
+
+#sdiv{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-top: 10px;
+    /* margin: 8px; */
+}
+#update{
+    display: flex;
+    font-size: 14px;
+    align-items: center;
+}
+#dil{
+    font-size: 12px;
+    padding-left: 12px;
+}
+#svg{
+    width: 15px;
+    align-content: center;
+    justify-content: center;
+}
+#search{
+    color: #363533;
+    align-items: center;
+}
+#button{
+    background-color:#f3a847;
+    height: 38px;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 40px;
+}
+#bar{
+    height: 38px;
+    border: none;
+    outline: none;
+    font-size: larger;
+    flex-grow: 1;
+    
+}
+#searchbar{
+    flex-grow: 1;
+   padding-top: 8px;
+   padding-left: 25px;
+    height: 38px;
+    display: flex;
+
+}
+#select{
+    display: flex;
+    text-align: center;
+    color: rgb(111, 108, 108);
+    background-color: rgb(229, 227, 227);
+    border: none;
+    width: 50px;
+    outline: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding-right: 5px;
+
+}
+#flag{
+    display: flex;
+    color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    padding-left: 30px;
+    margin: 0px;
+}
+#EN{
+    align-content: center;
+    justify-content: center;
+    border: none;
+    background-color: #233448;
+    color: white;
+    height: fit-content;
+    
+}
+#Hello{
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: left;
+    justify-content: center;
+    margin: 10px;
+}
+#Account{
+    border: none;
+    margin-left: -5px;
+    font-weight: 750;
+    border: none;
+    background-color: #233448;
+    color: white;
+}
+#return{
+    font-size: small;
+    color: white;
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#carticon{
+    /* flex-direction: row; */
+    align-self: center;
+    justify-content: center;
+    padding-left: 25px ;
+    margin: 5px;
+    
+}
+#cart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding-right: 9px;
+
+}
+#div2{
+    justify-content:space-evenly ;
+    padding-left: 3px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    height: 39px;
+    background-color: #232f3f;
+}
+#all{
+    font-weight: 600 ;
+    margin: 5px;
+    padding-right: 10px;
+}
+#prime{
+    font-size: large;
+    font-weight: 10;
+    border: none;
+    color: white;
+    background-color: #232f3f;
+}
+#bg{
+    /* padding-top: 1000px; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    height: 100vh;
+    width: 100vw;
+    background-image: url("https://images-eu.ssl-images-amazon.com/images/G/31/INSLGW/pc_unrec_refresh._CB555261616_.jpg" );
+    background-size: cover;
+}
+#box1{
+    /* display: flex; */
+    padding: 20px;
+    position: relative;
+    top: 400px;
+    left: 50px;
+    background-color: white;
+    height: 420px;
+    width: 369.67px;
+
+}
+#res{
+    font-weight: 700;
+    padding-top: 20px;
+    padding-left: 10px;
+    font-size: 27px;
+}
+#img1{
+    margin:10px ;
+}
+#row1{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+#labelimg1{
+    margin: -8px 0px 0px 10px;
+}
+#label1{
+    display: flex;
+    /* justify-content: left; */
+    /* justify-content: space-between; */
+}
+#labelimg2{
+    margin-left: 46px;
+    margin-top: -7px;
+}
+#row2{
+    margin-left: 10px;
+    margin-bottom: 7px;
+}
+#img2{
+    margin-right: 5px;
+}
+#seemore{
+    margin-top:18px ;
+    margin-left: 10px;
+    color: #298898;
+}
+#foot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-top: 500px;
+    height:49px ;
+    background-color: #37475a;
+    font-size: x-large;
+}
+#footer{
+    /* display: flex; */
+    background-color: #232f3e;
+    height: 1000px;
+}
+#Back{
+    text-decoration: none;
+    color: white;
+}
+.get_to_know_us{
+    color: white;
+}
+#text{
+    font-weight: 100;
+    margin: 50px;
+    font-size: x-large;
+    display: flex;
+    justify-content: space-evenly;
+}
